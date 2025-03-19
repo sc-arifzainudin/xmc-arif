@@ -3,17 +3,9 @@
 # dependencies
 /node_modules
 
-# testing
-/coverage
-
 # next.js
 /.next*/
 /out/
-
-# graphql code generation
-/.generated
-*.graphql.d.ts
-*.graphqls.d.ts
 
 # misc
 .DS_Store
@@ -25,9 +17,8 @@
 # Log files
 *.log*
 
-# sitecore
-scjssconfig.json
-*.deploysecret.config
-
 # vercel
 .vercel
+
+# sitecore temp files
+.sitecore
