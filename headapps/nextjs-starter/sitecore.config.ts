@@ -8,9 +8,12 @@ export default defineConfig({
       contextId:
         process.env.SITECORE_EDGE_CONTEXT_ID ||
         process.env.NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID ||
-        '',
+        'D9CPhSUkLYmWWDhuR6MTe',
       clientContextId: process.env.NEXT_PUBLIC_SITECORE_EDGE_CONTEXT_ID,
-      edgeUrl: process.env.SITECORE_EDGE_URL || process.env.NEXT_PUBLIC_SITECORE_EDGE_URL,
+      edgeUrl:
+        process.env.SITECORE_EDGE_URL ||
+        process.env.NEXT_PUBLIC_SITECORE_EDGE_URL ||
+        'https://edge-platform-staging.sitecore-staging.cloud',
     },
     local: {
       apiKey: process.env.NEXT_PUBLIC_SITECORE_API_KEY || '',
